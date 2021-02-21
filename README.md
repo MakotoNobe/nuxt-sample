@@ -27,32 +27,6 @@ create-nuxt-app v3.5.2
 ? Project name: upstarts-hp
 ? Programming language: JavaScript
 ? Package manager: Npm
-? UI framework: (Use arrow keys)
-❯ None 
-? UI framework: 
-  None 
-? UI framework: 
-  None 
-? UI framework: 
-  None 
-? UI framework: 
-  None 
-? UI framework: 
-  None 
-? UI framework: 
-  None 
-? UI framework: 
-  None 
-? UI framework: 
-  None 
-? UI framework: 
-  None 
-? UI framework: 
-  None 
-? UI framework: 
-  None 
-? UI framework: 
-  None 
 ? UI framework: Vuetify.js
 ? Nuxt.js modules: Axios - Promise based HTTP client
 ? Linting tools: ESLint, Prettier, StyleLint, Commitlint
