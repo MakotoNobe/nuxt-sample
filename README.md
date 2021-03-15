@@ -15,7 +15,15 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+
+$ npx -p @storybook/cli sb init
+
+$ npm run storybook
 ```
+
+storybook 構築参考
+
+https://qiita.com/ikemai/items/5738bad991d255406092
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 

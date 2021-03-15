@@ -18,6 +18,7 @@ export default {
   props: {
     name: {
       type: String,
+      required: false,
       default: 'アイコンボタン',
     },
     icon: {
@@ -27,6 +28,7 @@ export default {
     },
     color: {
       type: String,
+      required: false,
       default: 'orange',
     },
   },

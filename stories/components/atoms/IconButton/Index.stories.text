@@ -1,0 +1,41 @@
+import IconButton from '../../../../components/atoms/IconButton/Index.vue'
+
+export default {
+  title: 'components/atoms/IconButton',
+  component: IconButton,
+  argTypes: {
+    color: { control: 'color' },
+    // size: {
+    //   control: { type: 'select', options: ['small', 'medium', 'large'] },
+    // },
+  },
+}
+
+const Template = (args, { argTypes }) => ({
+  props: Object.keys(argTypes),
+  components: { IconButton },
+  template: '<IconButton @click="onClick" v-bind="$props" />',
+})
+
+export const Primary = Template.bind({})
+Primary.args = {
+  icon: 'mdi-open-in-new',
+  name: 'YouTubeチャンネル',
+}
+
+// export const Secondary = Template.bind({})
+// Secondary.args = {
+//   label: 'Button',
+// }
+
+// export const Large = Template.bind({})
+// Large.args = {
+//   size: 'large',
+//   label: 'Button',
+// }
+
+// export const Small = Template.bind({})
+// Small.args = {
+//   size: 'small',
+//   label: 'Button',
+// }
