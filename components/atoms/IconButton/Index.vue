@@ -1,6 +1,11 @@
 <template>
   <div>
-    <v-btn :color="color" elevation="2" style="text-transform: none">
+    <v-btn
+      :color="color"
+      elevation="2"
+      style="text-transform: none"
+      @click="onClick"
+    >
       <v-icon v-if="icon" left> {{ icon }} </v-icon>
       {{ name }}
     </v-btn>
@@ -23,6 +28,11 @@ export default {
     color: {
       type: String,
       default: 'orange',
+    },
+  },
+  methods: {
+    onClick() {
+      this.$emit('click')
     },
   },
 }
