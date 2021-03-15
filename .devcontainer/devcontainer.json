@@ -1,10 +1,10 @@
 {
-    "name": "upstarts-hp",
+    "name": "nuxt-sample",
     "dockerComposeFile": [
         "docker-compose.yaml"
     ],
     "workspaceFolder": "/app",
-    "service": "upstarts-hp",
+    "service": "nuxt-sample",
     "settings": {
         "terminal.integrated.shell.linux": null
     },

@@ -1,6 +1,6 @@
 version: "3.7"
 services:
-  upstarts-hp:
+  nuxt-sample:
     build:
       context: .
       dockerfile: Dockerfile
@@ -9,4 +9,4 @@ services:
       - 3000:3000
     volumes:
       - ..:/app/:delegated
-    container_name: upstarts-hp
+    container_name: nuxt-sample

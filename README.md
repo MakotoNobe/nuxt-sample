@@ -1,4 +1,4 @@
-# upstarts-hp
+# nuxt-sample
 
 ## Build Setup
 
@@ -20,11 +20,11 @@ $ npm run generate
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 ```bash
-hirataharewatarunoMacBook-Pro:upstarts-hp hirataseiya$ npx create-nuxt-app upstarts-hp
+hirataharewatarunoMacBook-Pro:nuxt-sample hirataseiya$ npx create-nuxt-app nuxt-sample
 
 create-nuxt-app v3.5.2
-✨  Generating Nuxt.js project in upstarts-hp
-? Project name: upstarts-hp
+✨  Generating Nuxt.js project in nuxt-sample
+? Project name: nuxt-sample
 ? Programming language: JavaScript
 ? Package manager: Npm
 ? UI framework: Vuetify.js
@@ -47,21 +47,21 @@ npm WARN deprecated fsevents@1.2.13: fsevents 1 will break on node v14+ and coul
 
 
 
-> deasync@0.1.21 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/deasync
+> deasync@0.1.21 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/deasync
 
-> deasync@0.1.21 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/deasync
+> deasync@0.1.21 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/deasync
 > node ./build.js
 
 `darwin-x64-node-14` exists; testing
 Binary is fine; exiting
 
-> deasync@0.1.21 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/deasync
+> deasync@0.1.21 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/deasync
 > node ./build.js
 
 `darwin-x64-node-14` exists; testing
 Binary is fine; exiting
 
-> fsevents@1.2.13 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/watchpack-chokidar2/node_modules/fsevents
+> fsevents@1.2.13 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/watchpack-chokidar2/node_modules/fsevents
 > node install.js
 
    SOLINK_MODULE(target) Release/.node
@@ -69,60 +69,38 @@ Binary is fine; exiting
    SOLINK_MODULE(target) Release/fse.node
 
 
-> deasync@0.1.21 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/deasync
+> deasync@0.1.21 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/deasync
 > node ./build.js
 
 `darwin-x64-node-14` exists; testing
 Binary is fine; exiting
 
-> fsevents@1.2.13 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/watchpack-chokidar2/node_modules/fsevents
+> fsevents@1.2.13 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/watchpack-chokidar2/node_modules/fsevents
 > node install.js
 
    SOLINK_MODULE(target) Release/.node
    CXX(target) Release/obj.target/fse/fsevents.o
    SOLINK_MODULE(target) Release/fse.node
 
-> core-js@2.6.12 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/@nuxt/babel-preset-app/node_modules/core-js
+> core-js@2.6.12 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/@nuxt/babel-preset-app/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
 
-> deasync@0.1.21 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/deasync
+> deasync@0.1.21 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/deasync
 > node ./build.js
 
 `darwin-x64-node-14` exists; testing
 Binary is fine; exiting
 
-> fsevents@1.2.13 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/watchpack-chokidar2/node_modules/fsevents
+> fsevents@1.2.13 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/watchpack-chokidar2/node_modules/fsevents
 > node install.js
 
    SOLINK_MODULE(target) Release/.node
    CXX(target) Release/obj.target/fse/fsevents.o
    SOLINK_MODULE(target) Release/fse.node
 
-> core-js@2.6.12 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/@nuxt/babel-preset-app/node_modules/core-js
-> node -e "try{require('./postinstall')}catch(e){}"
-
-Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
-
-The project needs your help! Please consider supporting of core-js on Open Collective or Patreon: 
-> https://opencollective.com/core-js 
-> https://www.patreon.com/zloirock 
-
-> deasync@0.1.21 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/deasync
-> node ./build.js
-
-`darwin-x64-node-14` exists; testing
-Binary is fine; exiting
-
-> fsevents@1.2.13 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/watchpack-chokidar2/node_modules/fsevents
-> node install.js
-
-   SOLINK_MODULE(target) Release/.node
-   CXX(target) Release/obj.target/fse/fsevents.o
-   SOLINK_MODULE(target) Release/fse.node
-
-> core-js@2.6.12 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/@nuxt/babel-preset-app/node_modules/core-js
+> core-js@2.6.12 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/@nuxt/babel-preset-app/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
@@ -131,24 +109,20 @@ The project needs your help! Please consider supporting of core-js on Open Colle
 > https://opencollective.com/core-js 
 > https://www.patreon.com/zloirock 
 
-Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
-
-
-
-> deasync@0.1.21 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/deasync
+> deasync@0.1.21 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/deasync
 > node ./build.js
 
 `darwin-x64-node-14` exists; testing
 Binary is fine; exiting
 
-> fsevents@1.2.13 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/watchpack-chokidar2/node_modules/fsevents
+> fsevents@1.2.13 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/watchpack-chokidar2/node_modules/fsevents
 > node install.js
 
    SOLINK_MODULE(target) Release/.node
    CXX(target) Release/obj.target/fse/fsevents.o
    SOLINK_MODULE(target) Release/fse.node
 
-> core-js@2.6.12 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/@nuxt/babel-preset-app/node_modules/core-js
+> core-js@2.6.12 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/@nuxt/babel-preset-app/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
@@ -160,22 +134,21 @@ The project needs your help! Please consider supporting of core-js on Open Colle
 Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
 
 
-> core-js@2.6.12 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/babel-runtime/node_modules/core-js
 
-> deasync@0.1.21 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/deasync
+> deasync@0.1.21 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/deasync
 > node ./build.js
 
 `darwin-x64-node-14` exists; testing
 Binary is fine; exiting
 
-> fsevents@1.2.13 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/watchpack-chokidar2/node_modules/fsevents
+> fsevents@1.2.13 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/watchpack-chokidar2/node_modules/fsevents
 > node install.js
 
    SOLINK_MODULE(target) Release/.node
    CXX(target) Release/obj.target/fse/fsevents.o
    SOLINK_MODULE(target) Release/fse.node
 
-> core-js@2.6.12 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/@nuxt/babel-preset-app/node_modules/core-js
+> core-js@2.6.12 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/@nuxt/babel-preset-app/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
@@ -187,15 +160,42 @@ The project needs your help! Please consider supporting of core-js on Open Colle
 Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
 
 
-> core-js@2.6.12 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/babel-runtime/node_modules/core-js
+> core-js@2.6.12 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/babel-runtime/node_modules/core-js
+
+> deasync@0.1.21 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/deasync
+> node ./build.js
+
+`darwin-x64-node-14` exists; testing
+Binary is fine; exiting
+
+> fsevents@1.2.13 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/watchpack-chokidar2/node_modules/fsevents
+> node install.js
+
+   SOLINK_MODULE(target) Release/.node
+   CXX(target) Release/obj.target/fse/fsevents.o
+   SOLINK_MODULE(target) Release/fse.node
+
+> core-js@2.6.12 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/@nuxt/babel-preset-app/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon: 
+> https://opencollective.com/core-js 
+> https://www.patreon.com/zloirock 
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+
+> core-js@2.6.12 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/babel-runtime/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 
-> core-js@3.9.0 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/core-js
+> core-js@3.9.0 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 
-> nuxt@2.15.1 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/nuxt
+> nuxt@2.15.1 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/nuxt
 > opencollective || exit 0
 
                                                               
@@ -208,20 +208,20 @@ Also, the author of core-js ( https://github.com/zloirock ) is looking for a goo
                                :+-      -*= .++: .=+.         
                               -+:      =*-   .+*: .=+:        
 
-> deasync@0.1.21 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/deasync
+> deasync@0.1.21 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/deasync
 > node ./build.js
 
 `darwin-x64-node-14` exists; testing
 Binary is fine; exiting
 
-> fsevents@1.2.13 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/watchpack-chokidar2/node_modules/fsevents
+> fsevents@1.2.13 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/watchpack-chokidar2/node_modules/fsevents
 > node install.js
 
    SOLINK_MODULE(target) Release/.node
    CXX(target) Release/obj.target/fse/fsevents.o
    SOLINK_MODULE(target) Release/fse.node
 
-> core-js@2.6.12 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/@nuxt/babel-preset-app/node_modules/core-js
+> core-js@2.6.12 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/@nuxt/babel-preset-app/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
@@ -233,15 +233,15 @@ The project needs your help! Please consider supporting of core-js on Open Colle
 Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
 
 
-> core-js@2.6.12 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/babel-runtime/node_modules/core-js
+> core-js@2.6.12 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/babel-runtime/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 
-> core-js@3.9.0 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/core-js
+> core-js@3.9.0 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 
-> nuxt@2.15.1 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/nuxt
+> nuxt@2.15.1 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/nuxt
 > opencollective || exit 0
 
                                                               
@@ -255,20 +255,20 @@ Also, the author of core-js ( https://github.com/zloirock ) is looking for a goo
                               -+:      =*-   .+*: .=+:        
                              -+:     .=*-     .=*-  =+:       
 
-> deasync@0.1.21 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/deasync
+> deasync@0.1.21 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/deasync
 > node ./build.js
 
 `darwin-x64-node-14` exists; testing
 Binary is fine; exiting
 
-> fsevents@1.2.13 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/watchpack-chokidar2/node_modules/fsevents
+> fsevents@1.2.13 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/watchpack-chokidar2/node_modules/fsevents
 > node install.js
 
    SOLINK_MODULE(target) Release/.node
    CXX(target) Release/obj.target/fse/fsevents.o
    SOLINK_MODULE(target) Release/fse.node
 
-> core-js@2.6.12 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/@nuxt/babel-preset-app/node_modules/core-js
+> core-js@2.6.12 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/@nuxt/babel-preset-app/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
@@ -280,15 +280,15 @@ The project needs your help! Please consider supporting of core-js on Open Colle
 Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
 
 
-> core-js@2.6.12 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/babel-runtime/node_modules/core-js
+> core-js@2.6.12 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/babel-runtime/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 
-> core-js@3.9.0 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/core-js
+> core-js@3.9.0 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 
-> nuxt@2.15.1 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/nuxt
+> nuxt@2.15.1 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/nuxt
 > opencollective || exit 0
 
                                                               
@@ -315,20 +315,20 @@ npm WARN deprecated har-validator@5.1.5: this library is no longer supported
 npm WARN deprecated fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
 npm 
 
-> deasync@0.1.21 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/deasync
+> deasync@0.1.21 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/deasync
 > node ./build.js
 
 `darwin-x64-node-14` exists; testing
 Binary is fine; exiting
 
-> fsevents@1.2.13 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/watchpack-chokidar2/node_modules/fsevents
+> fsevents@1.2.13 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/watchpack-chokidar2/node_modules/fsevents
 > node install.js
 
    SOLINK_MODULE(target) Release/.node
    CXX(target) Release/obj.target/fse/fsevents.o
    SOLINK_MODULE(target) Release/fse.node
 
-> core-js@2.6.12 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/@nuxt/babel-preset-app/node_modules/core-js
+> core-js@2.6.12 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/@nuxt/babel-preset-app/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
@@ -340,15 +340,15 @@ The project needs your help! Please consider supporting of core-js on Open Colle
 Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
 
 
-> core-js@2.6.12 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/babel-runtime/node_modules/core-js
+> core-js@2.6.12 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/babel-runtime/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 
-> core-js@3.9.0 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/core-js
+> core-js@3.9.0 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 
-> nuxt@2.15.1 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/nuxt
+> nuxt@2.15.1 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/nuxt
 > opencollective || exit 0
 
                                                               
@@ -379,20 +379,20 @@ npm WARN tsutils@3.20.0 requires a peer of typescript@>=2.8.0 || >= 3.2.0-dev ||
 
 
 
-> deasync@0.1.21 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/deasync
+> deasync@0.1.21 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/deasync
 > node ./build.js
 
 `darwin-x64-node-14` exists; testing
 Binary is fine; exiting
 
-> fsevents@1.2.13 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/watchpack-chokidar2/node_modules/fsevents
+> fsevents@1.2.13 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/watchpack-chokidar2/node_modules/fsevents
 > node install.js
 
    SOLINK_MODULE(target) Release/.node
    CXX(target) Release/obj.target/fse/fsevents.o
    SOLINK_MODULE(target) Release/fse.node
 
-> core-js@2.6.12 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/@nuxt/babel-preset-app/node_modules/core-js
+> core-js@2.6.12 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/@nuxt/babel-preset-app/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
@@ -404,15 +404,15 @@ The project needs your help! Please consider supporting of core-js on Open Colle
 Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
 
 
-> core-js@2.6.12 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/babel-runtime/node_modules/core-js
+> core-js@2.6.12 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/babel-runtime/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 
-> core-js@3.9.0 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/core-js
+> core-js@3.9.0 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 
-> nuxt@2.15.1 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/nuxt
+> nuxt@2.15.1 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/nuxt
 > opencollective || exit 0
 
                                                               
@@ -430,20 +430,20 @@ Also, the author of core-js ( https://github.com/zloirock ) is looking for a goo
                           .-=------=++============++====:     
                                          
 
-> deasync@0.1.21 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/deasync
+> deasync@0.1.21 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/deasync
 > node ./build.js
 
 `darwin-x64-node-14` exists; testing
 Binary is fine; exiting
 
-> fsevents@1.2.13 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/watchpack-chokidar2/node_modules/fsevents
+> fsevents@1.2.13 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/watchpack-chokidar2/node_modules/fsevents
 > node install.js
 
    SOLINK_MODULE(target) Release/.node
    CXX(target) Release/obj.target/fse/fsevents.o
    SOLINK_MODULE(target) Release/fse.node
 
-> core-js@2.6.12 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/@nuxt/babel-preset-app/node_modules/core-js
+> core-js@2.6.12 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/@nuxt/babel-preset-app/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
@@ -455,15 +455,15 @@ The project needs your help! Please consider supporting of core-js on Open Colle
 Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
 
 
-> core-js@2.6.12 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/babel-runtime/node_modules/core-js
+> core-js@2.6.12 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/babel-runtime/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 
-> core-js@3.9.0 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/core-js
+> core-js@3.9.0 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 
-> nuxt@2.15.1 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/nuxt
+> nuxt@2.15.1 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/nuxt
 > opencollective || exit 0
 
                                                               
@@ -482,20 +482,20 @@ Also, the author of core-js ( https://github.com/zloirock ) is looking for a goo
                                          
                            Thanks for installing nuxtjs 
 
-> deasync@0.1.21 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/deasync
+> deasync@0.1.21 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/deasync
 > node ./build.js
 
 `darwin-x64-node-14` exists; testing
 Binary is fine; exiting
 
-> fsevents@1.2.13 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/watchpack-chokidar2/node_modules/fsevents
+> fsevents@1.2.13 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/watchpack-chokidar2/node_modules/fsevents
 > node install.js
 
    SOLINK_MODULE(target) Release/.node
    CXX(target) Release/obj.target/fse/fsevents.o
    SOLINK_MODULE(target) Release/fse.node
 
-> core-js@2.6.12 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/@nuxt/babel-preset-app/node_modules/core-js
+> core-js@2.6.12 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/@nuxt/babel-preset-app/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
@@ -507,15 +507,15 @@ The project needs your help! Please consider supporting of core-js on Open Colle
 Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
 
 
-> core-js@2.6.12 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/babel-runtime/node_modules/core-js
+> core-js@2.6.12 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/babel-runtime/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 
-> core-js@3.9.0 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/core-js
+> core-js@3.9.0 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 
-> nuxt@2.15.1 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/nuxt
+> nuxt@2.15.1 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/nuxt
 > opencollective || exit 0
 
                                                               
@@ -538,20 +538,20 @@ Also, the author of core-js ( https://github.com/zloirock ) is looking for a goo
                                          
                              Number of contributors: 0
 
-> deasync@0.1.21 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/deasync
+> deasync@0.1.21 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/deasync
 > node ./build.js
 
 `darwin-x64-node-14` exists; testing
 Binary is fine; exiting
 
-> fsevents@1.2.13 install /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/watchpack-chokidar2/node_modules/fsevents
+> fsevents@1.2.13 install /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/watchpack-chokidar2/node_modules/fsevents
 > node install.js
 
    SOLINK_MODULE(target) Release/.node
    CXX(target) Release/obj.target/fse/fsevents.o
    SOLINK_MODULE(target) Release/fse.node
 
-> core-js@2.6.12 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/@nuxt/babel-preset-app/node_modules/core-js
+> core-js@2.6.12 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/@nuxt/babel-preset-app/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
@@ -563,15 +563,15 @@ The project needs your help! Please consider supporting of core-js on Open Colle
 Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
 
 
-> core-js@2.6.12 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/babel-runtime/node_modules/core-js
+> core-js@2.6.12 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/babel-runtime/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 
-> core-js@3.9.0 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/core-js
+> core-js@3.9.0 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 
-> nuxt@2.15.1 postinstall /Users/hirataseiya/upstarts-hp/upstarts-hp/node_modules/nuxt
+> nuxt@2.15.1 postinstall /Users/hirataseiya/nuxt-sample/nuxt-sample/node_modules/nuxt
 > opencollective || exit 0
 
                                                               
@@ -596,29 +596,29 @@ Also, the author of core-js ( https://github.com/zloirock ) is looking for a goo
                                Number of backers: 411
                                Annual budget: $72,259
 
-> upstarts-hp@1.0.0 lint:js /Users/hirataseiya/upstarts-hp/upstarts-hp
+> nuxt-sample@1.0.0 lint:js /Users/hirataseiya/nuxt-sample/nuxt-sample
 > eslint --ext ".js,.vue" --ignore-path .gitignore . "--fix"
 
 
-> upstarts-hp@1.0.0 lint:style /Users/hirataseiya/upstarts-hp/upstarts-hp
+> nuxt-sample@1.0.0 lint:style /Users/hirataseiya/nuxt-sample/nuxt-sample
 > stylelint "**/*.{vue,css}" --ignore-path .gitignore "--fix"
 
 
-🎉  Successfully created project upstarts-hp
+🎉  Successfully created project nuxt-sample
 
   To get started:
 
-        cd upstarts-hp
+        cd nuxt-sample
         npm run dev
 
   To build & start for production:
 
-        cd upstarts-hp
+        cd nuxt-sample
         npm run build
         npm run start
 
   To test:
 
-        cd upstarts-hp
+        cd nuxt-sample
         npm run test
 ```
